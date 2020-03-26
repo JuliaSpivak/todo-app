@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="dist/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TODO List</title>
 </head>
+
 <body>
     <div class="todo-app">
-        <label><input class="todo-input" placeholder="Enter TODO!"></label>
-        <div class="todo-sections">
-            <button class="active">TODO</button>
-            <button>DONE</button>
-        </div>
+        <form class="create-new-todo">
+            <label><input class="todo-input" placeholder="Create new ToDo!"></label>
+            <button type="submit">Add</button>
+        </form>
+        <ul class="todo-sections">
+            <li class="active">TODO</li>
+            <li>DONE</li>
+        </ul>
         <div class="todo-list">
             <div class="todo-item">
                 <span>bla bla bla</span>
@@ -52,4 +57,5 @@
         </div>
     </div>
 </body>
+
 </html>
